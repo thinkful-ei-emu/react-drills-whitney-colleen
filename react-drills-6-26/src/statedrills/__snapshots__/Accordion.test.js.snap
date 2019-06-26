@@ -1,5 +1,105 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Accordion Component component opens a clicked section 1`] = `
+<ul>
+  <li
+    id={0}
+    key="0"
+    onClick={[Function]}
+  >
+    <button>
+      Section 1
+    </button>
+  </li>
+  <li
+    id={1}
+    key="1"
+    onClick={[Function]}
+  >
+    <button>
+      Section 2
+    </button>
+  </li>
+  <li
+    id={2}
+    key="2"
+    onClick={[Function]}
+  >
+    <button>
+      Section 3
+    </button>
+  </li>
+</ul>
+`;
+
+exports[`Accordion Component component opens last section if multiple are clicked 1`] = `
+<ul>
+  <li
+    id={0}
+    key="0"
+    onClick={[Function]}
+  >
+    <button>
+      Section 1
+    </button>
+  </li>
+  <li
+    id={1}
+    key="1"
+    onClick={[Function]}
+  >
+    <button>
+      Section 2
+    </button>
+  </li>
+  <li
+    id={2}
+    key="2"
+    onClick={[Function]}
+  >
+    <button>
+      Section 3
+    </button>
+  </li>
+</ul>
+`;
+
+exports[`Accordion Component component renders an empty li when sections prop is not supplied 1`] = `<ul />`;
+
+exports[`Accordion Component component renders no sections as active by default 1`] = `
+<ul>
+  <li
+    id={0}
+    key="0"
+    onClick={[Function]}
+  >
+    <button>
+      Section 1
+    </button>
+  </li>
+  <li
+    id={1}
+    key="1"
+    onClick={[Function]}
+  >
+    <button>
+      Section 2
+    </button>
+  </li>
+  <li
+    id={2}
+    key="2"
+    onClick={[Function]}
+  >
+    <button>
+      Section 3
+    </button>
+  </li>
+</ul>
+`;
+
+exports[`component opens a clicked section 1`] = `<ul />`;
+
 exports[`component renders an empty li when sections prop is not supplied 1`] = `<ul />`;
 
 exports[`component renders no sections as active by default 1`] = `
