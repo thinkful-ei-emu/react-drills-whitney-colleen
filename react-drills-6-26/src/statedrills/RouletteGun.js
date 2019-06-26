@@ -4,7 +4,6 @@ class RouletteGun extends React.Component {
   constructor (props) {
     super(props)
     this.state = {spinningTheChamber : false, chamber: null}
-    console.log(this.state)
   }
   /* spinning the chamber and pulling the trigger! ...
   you're safe!
@@ -12,8 +11,7 @@ class RouletteGun extends React.Component {
 
 
   handleTrigger = ()=>{
-    console.log(this.state)
-    console.log(this.props)
+   
 /*The state should update spinningTheChamber to be true.
 A timeout should be registered for 2 seconds.
 Within the timeout, a random number between 1 and 8 should be generated.
@@ -24,7 +22,6 @@ random number is the new value for chamber and the spinningTheChamber should be 
     )
     this.timeout = setTimeout(()=>{
       const value = Math.floor(Math.random() * (9-1)+1)
-      console.log(value);
       this.setState({spinningTheChamber: false, chamber: value})
     },2000)
 
