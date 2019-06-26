@@ -1,12 +1,11 @@
 import React from 'react';
 import './App.css';
-import HelloWorld from './statedrills/HelloWorld';
-import Bomb from './statedrills/Bomb';
+import RouletteGun from './statedrills/RouletteGun';
 
 function App() {
   return (
     <div className="App">
-      <Bomb />
+      <RouletteGun bulletInChamber={8} />
     </div>
   );
 }
